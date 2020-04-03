@@ -505,12 +505,15 @@ a:focus {
 }
 
 @media (min-width: 992px) {
-    /*
-    justify-content: space-between werkt niet als er een element links of rechts langer of korter wordt.
-    daarom andere manier.
+    /*justify-content: space-between werkt niet als er een element links of rechts langer of korter wordt.
+    daarom andere manier.*/
 
     .c-footer {
         justify-content: space-between;
+    }
+
+    .c-footer__logo {
+        width: auto;
     }
 
     .c-footer__nav {
@@ -519,11 +522,7 @@ a:focus {
 
     .c-footer__logo + .c-footer__nav {
         order: -1;
-    }
-
-    .c-footer__logo {
-        width: auto;
-    }*/
+    }   
 
     .c-footer__logo {
         width: auto;
